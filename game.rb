@@ -1,25 +1,25 @@
 # Prompt the user to enter a verb, and store what they enter
 # in a variable named "verb".
 
-p "Enter a verb:"
+print "Enter a verb: "
 verb = gets.chomp
 
 # Prompt the user to enter a noun, and store what they enter
 # in a variable named "noun".
 
-p "Enter a noun:"
+print "Enter a noun: "
 noun = gets.chomp
 
 # Prompt the user to enter an adjective, and store what they
 # enter in a variable named "adjective".
 
-p "Enter an adjective:"
+print "Enter an adjective: "
 adjective = gets.chomp
 
 # Prompt the user to enter a second noun, and store what they
 # enter in a variable named "noun2".
 
-p "Enter another noun:"
+print "Enter another noun: "
 noun2 = gets.chomp
 
 # Fill in the #{} marker to include the contents of the
